@@ -25,11 +25,11 @@ Fair Car Viewer (Homework assignment) - Bartow Weiss
 MISSING 
 * Car Mileage Slider - The api endpoints did not provide any information on how milage may effect pricing, it only provided the start and monthly payments, so I chose to omit this feature and focus on what I could make with the information I did have instead of displaying incorrect or misleading information
 
-* Jest testing - I havent used Jest before and was unable to figure it out and get it working in a timely manner. I am continuing to investigate how to use jest, but in the interest of time, I tested and error handled in the react component files.
+* Jest testing - I haven't used Jest before and was unable to figure it out and get it working in a timely manner. I am continuing to investigate how to use jest, but in the interest of time, I tested and error handled in the react component files.
 
 
-#########################################################################
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##################################
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
     In the project directory, you can run:
