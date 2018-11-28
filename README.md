@@ -3,6 +3,7 @@ Fair Car Viewer (Homework assignment) - Bartow Weiss
 ## To Run
     1. 'npm install'
     2. 'npm start'
+    3. navigate browser to 'http://localhost:3000/' if it doesn't open automatically
 
 ## About
 * A Car Listing Section
