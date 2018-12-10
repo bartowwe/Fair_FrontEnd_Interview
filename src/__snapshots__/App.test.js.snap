@@ -1,0 +1,2489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parent App renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="App-header"
+        >
+          <div
+            alt="logo"
+            className="App-logo"
+          >
+            fair
+          </div>
+        </header>,
+        <div
+          id="parentbox"
+        >
+          <table
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+          >
+            <tbody>
+              <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            alt="logo"
+            className="App-logo"
+          >
+            fair
+          </div>,
+          "className": "App-header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "logo",
+            "children": "fair",
+            "className": "App-logo",
+          },
+          "ref": null,
+          "rendered": "fair",
+          "type": "div",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <table
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+          >
+            <tbody>
+              <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>,
+          "id": "parentbox",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tbody>
+              <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>
+            </tbody>,
+            "style": Object {
+              "margin": "auto",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>,
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        id="vlistHeader"
+                      >
+                        <ul
+                          className="tabs"
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                          >
+                            Results
+                          </li>
+                          <li
+                            className="paginateNums"
+                            onClick={[Function]}
+                          >
+                            Favorites
+                          </li>
+                        </ul>
+                      </div>,
+                      <ul
+                        id="vlist"
+                      >
+                        <div />
+                      </ul>,
+                      <div
+                        className="paginate"
+                        style={
+                          Object {
+                            "width": "150px",
+                          }
+                        }
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                          onClick={[Function]}
+                        >
+                          1
+                        </li>
+                      </div>,
+                    ],
+                    "id": "carlist",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ul
+                          className="tabs"
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                          >
+                            Results
+                          </li>
+                          <li
+                            className="paginateNums"
+                            onClick={[Function]}
+                          >
+                            Favorites
+                          </li>
+                        </ul>,
+                        "id": "vlistHeader",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li
+                              className="paginateNumsSelected"
+                            >
+                              Results
+                            </li>,
+                            <li
+                              className="paginateNums"
+                              onClick={[Function]}
+                            >
+                              Favorites
+                            </li>,
+                          ],
+                          "className": "tabs",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Results",
+                              "className": "paginateNumsSelected",
+                            },
+                            "ref": null,
+                            "rendered": "Results",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Favorites",
+                              "className": "paginateNums",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "Favorites",
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div />,
+                        "id": "vlist",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [],
+                        },
+                        "ref": null,
+                        "rendered": Array [],
+                        "type": "div",
+                      },
+                      "type": "ul",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li
+                            className="paginateNumsSelected"
+                            onClick={[Function]}
+                          >
+                            1
+                          </li>,
+                        ],
+                        "className": "paginate",
+                        "style": Object {
+                          "width": "150px",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": 1,
+                            "className": "paginateNumsSelected",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": 1,
+                          "type": "li",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />,
+                    "id": "showroom",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "favorite": [Function],
+                      "favorited": [Function],
+                      "id": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "tbody",
+          },
+          "type": "table",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="App-header"
+          >
+            <div
+              alt="logo"
+              className="App-logo"
+            >
+              fair
+            </div>
+          </header>,
+          <div
+            id="parentbox"
+          >
+            <table
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              <tbody>
+                <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              alt="logo"
+              className="App-logo"
+            >
+              fair
+            </div>,
+            "className": "App-header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "logo",
+              "children": "fair",
+              "className": "App-logo",
+            },
+            "ref": null,
+            "rendered": "fair",
+            "type": "div",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <table
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              <tbody>
+                <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>,
+            "id": "parentbox",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tbody>
+                <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>
+              </tbody>,
+              "style": Object {
+                "margin": "auto",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td
+                      id="carlist"
+                    >
+                      <div
+                        id="vlistHeader"
+                      >
+                        <ul
+                          className="tabs"
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                          >
+                            Results
+                          </li>
+                          <li
+                            className="paginateNums"
+                            onClick={[Function]}
+                          >
+                            Favorites
+                          </li>
+                        </ul>
+                      </div>
+                      <ul
+                        id="vlist"
+                      >
+                        <div />
+                      </ul>
+                      <div
+                        className="paginate"
+                        style={
+                          Object {
+                            "width": "150px",
+                          }
+                        }
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                          onClick={[Function]}
+                        >
+                          1
+                        </li>
+                      </div>
+                    </td>,
+                    <td
+                      id="showroom"
+                    >
+                      <ShowRoom
+                        favorite={[Function]}
+                        favorited={[Function]}
+                        id=""
+                      />
+                    </td>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          id="vlistHeader"
+                        >
+                          <ul
+                            className="tabs"
+                          >
+                            <li
+                              className="paginateNumsSelected"
+                            >
+                              Results
+                            </li>
+                            <li
+                              className="paginateNums"
+                              onClick={[Function]}
+                            >
+                              Favorites
+                            </li>
+                          </ul>
+                        </div>,
+                        <ul
+                          id="vlist"
+                        >
+                          <div />
+                        </ul>,
+                        <div
+                          className="paginate"
+                          style={
+                            Object {
+                              "width": "150px",
+                            }
+                          }
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                            onClick={[Function]}
+                          >
+                            1
+                          </li>
+                        </div>,
+                      ],
+                      "id": "carlist",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <ul
+                            className="tabs"
+                          >
+                            <li
+                              className="paginateNumsSelected"
+                            >
+                              Results
+                            </li>
+                            <li
+                              className="paginateNums"
+                              onClick={[Function]}
+                            >
+                              Favorites
+                            </li>
+                          </ul>,
+                          "id": "vlistHeader",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <li
+                                className="paginateNumsSelected"
+                              >
+                                Results
+                              </li>,
+                              <li
+                                className="paginateNums"
+                                onClick={[Function]}
+                              >
+                                Favorites
+                              </li>,
+                            ],
+                            "className": "tabs",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Results",
+                                "className": "paginateNumsSelected",
+                              },
+                              "ref": null,
+                              "rendered": "Results",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Favorites",
+                                "className": "paginateNums",
+                                "onClick": [Function],
+                              },
+                              "ref": null,
+                              "rendered": "Favorites",
+                              "type": "li",
+                            },
+                          ],
+                          "type": "ul",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div />,
+                          "id": "vlist",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [],
+                          },
+                          "ref": null,
+                          "rendered": Array [],
+                          "type": "div",
+                        },
+                        "type": "ul",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li
+                              className="paginateNumsSelected"
+                              onClick={[Function]}
+                            >
+                              1
+                            </li>,
+                          ],
+                          "className": "paginate",
+                          "style": Object {
+                            "width": "150px",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": "1",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": 1,
+                              "className": "paginateNumsSelected",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": 1,
+                            "type": "li",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ShowRoom
+                        favorite={[Function]}
+                        favorited={[Function]}
+                        id=""
+                      />,
+                      "id": "showroom",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "favorite": [Function],
+                        "favorited": [Function],
+                        "id": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "tbody",
+            },
+            "type": "table",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="App-header"
+        >
+          <div
+            alt="logo"
+            className="App-logo"
+          >
+            fair
+          </div>
+        </header>,
+        <div
+          id="parentbox"
+        >
+          <table
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+          >
+            <tbody>
+              <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            alt="logo"
+            className="App-logo"
+          >
+            fair
+          </div>,
+          "className": "App-header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "logo",
+            "children": "fair",
+            "className": "App-logo",
+          },
+          "ref": null,
+          "rendered": "fair",
+          "type": "div",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <table
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+          >
+            <tbody>
+              <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>,
+          "id": "parentbox",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tbody>
+              <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>
+            </tbody>,
+            "style": Object {
+              "margin": "auto",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <td
+                  id="carlist"
+                >
+                  <div
+                    id="vlistHeader"
+                  >
+                    <ul
+                      className="tabs"
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                      >
+                        Results
+                      </li>
+                      <li
+                        className="paginateNums"
+                        onClick={[Function]}
+                      >
+                        Favorites
+                      </li>
+                    </ul>
+                  </div>
+                  <ul
+                    id="vlist"
+                  >
+                    <div />
+                  </ul>
+                  <div
+                    className="paginate"
+                    style={
+                      Object {
+                        "width": "150px",
+                      }
+                    }
+                  >
+                    <li
+                      className="paginateNumsSelected"
+                      onClick={[Function]}
+                    >
+                      1
+                    </li>
+                  </div>
+                </td>
+                <td
+                  id="showroom"
+                >
+                  <ShowRoom
+                    favorite={[Function]}
+                    favorited={[Function]}
+                    id=""
+                  />
+                </td>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>,
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        id="vlistHeader"
+                      >
+                        <ul
+                          className="tabs"
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                          >
+                            Results
+                          </li>
+                          <li
+                            className="paginateNums"
+                            onClick={[Function]}
+                          >
+                            Favorites
+                          </li>
+                        </ul>
+                      </div>,
+                      <ul
+                        id="vlist"
+                      >
+                        <div />
+                      </ul>,
+                      <div
+                        className="paginate"
+                        style={
+                          Object {
+                            "width": "150px",
+                          }
+                        }
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                          onClick={[Function]}
+                        >
+                          1
+                        </li>
+                      </div>,
+                    ],
+                    "id": "carlist",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ul
+                          className="tabs"
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                          >
+                            Results
+                          </li>
+                          <li
+                            className="paginateNums"
+                            onClick={[Function]}
+                          >
+                            Favorites
+                          </li>
+                        </ul>,
+                        "id": "vlistHeader",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li
+                              className="paginateNumsSelected"
+                            >
+                              Results
+                            </li>,
+                            <li
+                              className="paginateNums"
+                              onClick={[Function]}
+                            >
+                              Favorites
+                            </li>,
+                          ],
+                          "className": "tabs",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Results",
+                              "className": "paginateNumsSelected",
+                            },
+                            "ref": null,
+                            "rendered": "Results",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Favorites",
+                              "className": "paginateNums",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "Favorites",
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div />,
+                        "id": "vlist",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [],
+                        },
+                        "ref": null,
+                        "rendered": Array [],
+                        "type": "div",
+                      },
+                      "type": "ul",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <li
+                            className="paginateNumsSelected"
+                            onClick={[Function]}
+                          >
+                            1
+                          </li>,
+                        ],
+                        "className": "paginate",
+                        "style": Object {
+                          "width": "150px",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "1",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": 1,
+                            "className": "paginateNumsSelected",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": 1,
+                          "type": "li",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />,
+                    "id": "showroom",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "favorite": [Function],
+                      "favorited": [Function],
+                      "id": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "tbody",
+          },
+          "type": "table",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="App-header"
+          >
+            <div
+              alt="logo"
+              className="App-logo"
+            >
+              fair
+            </div>
+          </header>,
+          <div
+            id="parentbox"
+          >
+            <table
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              <tbody>
+                <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              alt="logo"
+              className="App-logo"
+            >
+              fair
+            </div>,
+            "className": "App-header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "logo",
+              "children": "fair",
+              "className": "App-logo",
+            },
+            "ref": null,
+            "rendered": "fair",
+            "type": "div",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <table
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              <tbody>
+                <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>,
+            "id": "parentbox",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tbody>
+                <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>
+              </tbody>,
+              "style": Object {
+                "margin": "auto",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <td
+                    id="carlist"
+                  >
+                    <div
+                      id="vlistHeader"
+                    >
+                      <ul
+                        className="tabs"
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                        >
+                          Results
+                        </li>
+                        <li
+                          className="paginateNums"
+                          onClick={[Function]}
+                        >
+                          Favorites
+                        </li>
+                      </ul>
+                    </div>
+                    <ul
+                      id="vlist"
+                    >
+                      <div />
+                    </ul>
+                    <div
+                      className="paginate"
+                      style={
+                        Object {
+                          "width": "150px",
+                        }
+                      }
+                    >
+                      <li
+                        className="paginateNumsSelected"
+                        onClick={[Function]}
+                      >
+                        1
+                      </li>
+                    </div>
+                  </td>
+                  <td
+                    id="showroom"
+                  >
+                    <ShowRoom
+                      favorite={[Function]}
+                      favorited={[Function]}
+                      id=""
+                    />
+                  </td>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td
+                      id="carlist"
+                    >
+                      <div
+                        id="vlistHeader"
+                      >
+                        <ul
+                          className="tabs"
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                          >
+                            Results
+                          </li>
+                          <li
+                            className="paginateNums"
+                            onClick={[Function]}
+                          >
+                            Favorites
+                          </li>
+                        </ul>
+                      </div>
+                      <ul
+                        id="vlist"
+                      >
+                        <div />
+                      </ul>
+                      <div
+                        className="paginate"
+                        style={
+                          Object {
+                            "width": "150px",
+                          }
+                        }
+                      >
+                        <li
+                          className="paginateNumsSelected"
+                          onClick={[Function]}
+                        >
+                          1
+                        </li>
+                      </div>
+                    </td>,
+                    <td
+                      id="showroom"
+                    >
+                      <ShowRoom
+                        favorite={[Function]}
+                        favorited={[Function]}
+                        id=""
+                      />
+                    </td>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          id="vlistHeader"
+                        >
+                          <ul
+                            className="tabs"
+                          >
+                            <li
+                              className="paginateNumsSelected"
+                            >
+                              Results
+                            </li>
+                            <li
+                              className="paginateNums"
+                              onClick={[Function]}
+                            >
+                              Favorites
+                            </li>
+                          </ul>
+                        </div>,
+                        <ul
+                          id="vlist"
+                        >
+                          <div />
+                        </ul>,
+                        <div
+                          className="paginate"
+                          style={
+                            Object {
+                              "width": "150px",
+                            }
+                          }
+                        >
+                          <li
+                            className="paginateNumsSelected"
+                            onClick={[Function]}
+                          >
+                            1
+                          </li>
+                        </div>,
+                      ],
+                      "id": "carlist",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <ul
+                            className="tabs"
+                          >
+                            <li
+                              className="paginateNumsSelected"
+                            >
+                              Results
+                            </li>
+                            <li
+                              className="paginateNums"
+                              onClick={[Function]}
+                            >
+                              Favorites
+                            </li>
+                          </ul>,
+                          "id": "vlistHeader",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <li
+                                className="paginateNumsSelected"
+                              >
+                                Results
+                              </li>,
+                              <li
+                                className="paginateNums"
+                                onClick={[Function]}
+                              >
+                                Favorites
+                              </li>,
+                            ],
+                            "className": "tabs",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Results",
+                                "className": "paginateNumsSelected",
+                              },
+                              "ref": null,
+                              "rendered": "Results",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Favorites",
+                                "className": "paginateNums",
+                                "onClick": [Function],
+                              },
+                              "ref": null,
+                              "rendered": "Favorites",
+                              "type": "li",
+                            },
+                          ],
+                          "type": "ul",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <div />,
+                          "id": "vlist",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [],
+                          },
+                          "ref": null,
+                          "rendered": Array [],
+                          "type": "div",
+                        },
+                        "type": "ul",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li
+                              className="paginateNumsSelected"
+                              onClick={[Function]}
+                            >
+                              1
+                            </li>,
+                          ],
+                          "className": "paginate",
+                          "style": Object {
+                            "width": "150px",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": "1",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": 1,
+                              "className": "paginateNumsSelected",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": 1,
+                            "type": "li",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ShowRoom
+                        favorite={[Function]}
+                        favorited={[Function]}
+                        id=""
+                      />,
+                      "id": "showroom",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "favorite": [Function],
+                        "favorited": [Function],
+                        "id": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "tbody",
+            },
+            "type": "table",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

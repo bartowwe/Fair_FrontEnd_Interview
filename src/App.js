@@ -45,9 +45,12 @@ class App extends Component {
   presetFavs() {
     let tempFavs = [];
     let data = JSON.parse(localStorage.getItem('favorites'));
-    for (let i = 0; i < Object.keys(data).length; i++)
+    if (typeof data === Object)
     {
-      tempFavs.push(data[i])
+      for (let i = 0; i < Object.keys(data).length; i++)
+      {
+        tempFavs.push(data[i])
+      }
     }
     this.setState({favorites: tempFavs});
   }
